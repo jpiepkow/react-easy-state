@@ -766,7 +766,7 @@ Immediately executes the passed function and batches all store mutations inside 
 
 ```jsx
 import React from 'react';
-import { view, store } from '@risingstack/react-easy-state';
+import { batch, store } from '@risingstack/react-easy-state';
 
 const user = store({ name: 'Bob' });
 
